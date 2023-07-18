@@ -1,0 +1,51 @@
+  *{
+    box-sizing: border-box;
+  }
+  
+  /* shared section */
+
+
+  /* navbar start hare */
+.nav-container{
+    border: 1px solid red;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo-container{
+    display: flex;
+    width: 50%;
+    
+    /* width: 80px;
+    height: 35px; */
+    align-items: center;
+    gap: 5px;
+}
+.logo-container ing{
+    object-fit: cover;
+   
+}
+.logo-head{      
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+}
+.logo-span{
+    color: #FF42A5;
+}
+.nav-logo{
+    display: flex;
+    gap: 20px;
+}
+.nav-follow{
+    padding: 0 10px;
+    background: rgba(11, 2, 35, 0.10);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+.logo-img{
+    width: 22px;
+}
