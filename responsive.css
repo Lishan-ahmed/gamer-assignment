@@ -1,7 +1,13 @@
 /* navbar start hare */
 @media screen and (max-width:776px) {
-    .logo-container, .nav-follow, .main-container, .Image-section{
+    .logo-container, .nav-follow, .main-container, .Image-section,.download-section, .nav-container, .nav-logo{
         flex-direction: column;
+    }
+    .small-logo-container{
+        grid-template-columns: 1fr;
+    }
+    .download-section{
+        margin: 0;
     }
     
 }

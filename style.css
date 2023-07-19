@@ -178,8 +178,16 @@
 .horse-img{
     height: 400px;
     width: 360px; 
-    
-    
+}
+.image-info{
+    position: relative;
+}
+.image-info-container{
+    height: 200px;
+    width: 150px;
+    position: absolute;
+    bottom: -40px;
+    left: 0;
 }
 
 
