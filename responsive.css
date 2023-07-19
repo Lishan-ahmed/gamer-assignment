@@ -1,5 +1,5 @@
 /* navbar start hare */
-@media screen and (max-width:776px) {
+@media screen and (max-width:576px) {
     .logo-container, .nav-follow, .main-container, .Image-section,.download-section, .nav-container, .nav-logo{
         flex-direction: column;
     }
@@ -11,3 +11,6 @@
     }
     
 }
+
+
+
